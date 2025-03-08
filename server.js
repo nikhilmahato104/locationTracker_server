@@ -80,7 +80,7 @@ app.post('/save-location', async (req, res) => {
         await newLocation.save();
 
         res.json({
-            message: "आपकी लोकेशन सेव कर ली गई है और पुलिस स्टेशन को अपराध की जांच के लिए भेज दी गई है! यदि आप किसी लड़की को परेशान कर रहे हैं या किसी संदिग्ध गतिविधि में शामिल पाए जाते हैं, तो आपके खिलाफ स्वतः ऑनलाइन एफआईआर दर्ज कर दी जाएगी।",
+            message: "आपकी लोकेशन सेव कर ली गई है और पुलिस स्टेशन को अपराध की जांच के लिए भेज दी गई है! यदि आप किसी लड़की को परेशान कर रहे हैं या किसी संदिग्ध गतिविधि में शामिल पाए जाते हैं, तो आपके खिलाफ स्वतः ऑनलाइन एफआईआर दर्ज कर दी जाएगी। YOUR LOCATION HAS BEEN SAVED AND TRANSFERRED TO THE POLICE STATION TO CHECK FOR CRIME! IF YOU ARE TEASING A GIRL OR FOUND INVOLVED IN SUSPICIOUS ACTIVITY, AN ONLINE FIR WILL BE AUTOMATICALLY GENERATED AGAINST YOU.Development to Support Girls & Stop Crime Nikhil (Information Technology, 12205416",
         });
 
         console.log("New location saved:", { latitude, longitude });
